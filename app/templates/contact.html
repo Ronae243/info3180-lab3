@@ -4,36 +4,36 @@
 <header>
     <h2>Contact Form</h2>
     <hr attribute="20">
-    <p>Fill in this form to contact the site owners</p>
+    <p>Fill in this form to contact the site owners.</p>
 </header>
 <form method="POST" action="/contact">
     {{ form.csrf_token }}
     
     <div class="name">
         {{ form.name.label }}
-        <p>Please enter your full name</p>
+        <p>Please enter your full name.</p>
         {{ form.name }}
     </div>
     
     <div class="email">
         {{ form.email.label }}
-        <p>Please enter your e-mail address</p>
+        <p>Please enter your e-mail address.</p>
         {{ form.email }}
     </div>
     
     <div class="subject">
         {{ form.subject.label }}
-        <p>Please enter the subject of your message</p>
+        <p>Please enter the subject of your message.</p>
         {{ form.subject }}
     </div>
     
     <div class="message">
         {{ form.message.label }}
-        <p>Please enter the message you would like to send</p>
+        <p>Please enter the message you would like to send.</p>
         {{ form.message }}
     </div>
-    <div>
-        {{form.submit}}
+    <div class="btn"> 
+        {{form.submit (class ="b")}}
     </div>
     
 </form>

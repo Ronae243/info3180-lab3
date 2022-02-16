@@ -1,3 +1,109 @@
 body {
     padding-top: 5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.name{
+    margin-top: 30px;
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.subject{
+    margin-top: 20px;
+}
+
+.message{
+    margin-top: 20px;
+
+}
+
+.name p{
+    margin-top: 7px;
+    font-weight: 500;
+}
+
+.email p{
+    margin-top: 7px;
+    font-weight: 500;
+}
+
+.subject p{
+    margin-top: 7px;
+    font-weight: 500;
+}
+
+.message p{
+    margin-top: 7px;
+    font-weight: 500;
+    
+}
+
+
+.name :nth-child(1){
+    font-weight: bold;
+}
+
+.email :nth-child(1){
+    font-weight: bold;
+}
+
+.subject :nth-child(1){
+    font-weight: bold;
+}
+
+.message :nth-child(1){
+    font-weight: bold;
+    
+}
+
+
+/*  ------------------------------------  */
+.name :nth-child(3){
+    margin-top: -10px;
+    width: 350px;
+    opacity: 50%;
+}
+
+.email :nth-child(3){
+    margin-top: -10px;
+    width: 350px;
+    opacity: 50%;
+}
+
+.subject :nth-child(3){
+    margin-top: -10px;
+    width: 350px;
+    opacity: 50%;
+}
+
+.message :nth-child(3){
+    margin-top: -10px;
+    width: 420px;
+    height: 120px;
+    opacity: 50%;
+    
+}
+
+.btn{
+   margin-top: 10px;
+   margin-left:  -13px;
+   color: blue;
+}
+
+.b{
+    background-color: rgb(41,135,205);
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    width: 95px;
+    height: 40px;
+    color: white;
+}
+
+h2{
+    font-weight: bold;
+
 }
