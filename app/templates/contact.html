@@ -10,25 +10,25 @@
     {{ form.csrf_token }}
     
     <div class="name">
-        {{ form.name.label }}
+        <p>{{ form.name.label(id ="blk") }} (Required) </p>
         <p>Please enter your full name.</p>
         {{ form.name }}
     </div>
     
     <div class="email">
-        {{ form.email.label }}
+        <p>{{ form.email.label(id ="blk") }} (Required)</p>
         <p>Please enter your e-mail address.</p>
         {{ form.email }}
     </div>
     
     <div class="subject">
-        {{ form.subject.label }}
+        <p>{{ form.subject.label(id ="blk") }} (Required) </p>
         <p>Please enter the subject of your message.</p>
         {{ form.subject }}
     </div>
     
     <div class="message">
-        {{ form.message.label }}
+        <p>{{ form.message.label(id ="blk") }} (Required)</p>
         <p>Please enter the message you would like to send.</p>
         {{ form.message }}
     </div>

@@ -37,7 +37,7 @@ def contact():
             msg.body = request.form['message']
             mail.send(msg) 
             flash('Message was sent')
-            return redirect('/')    
+            return redirect(url_for("home"))    
         else:
             flash('Message was not sent')
             return render_template('contact.html', form=form)   

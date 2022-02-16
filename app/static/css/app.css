@@ -44,18 +44,22 @@ body {
 
 .name :nth-child(1){
     font-weight: bold;
+    color: red;
 }
 
 .email :nth-child(1){
     font-weight: bold;
+    color: red;
 }
 
 .subject :nth-child(1){
     font-weight: bold;
+    color: red;
 }
 
 .message :nth-child(1){
     font-weight: bold;
+    color: red;
     
 }
 
@@ -64,26 +68,23 @@ body {
 .name :nth-child(3){
     margin-top: -10px;
     width: 350px;
-    opacity: 50%;
 }
 
 .email :nth-child(3){
     margin-top: -10px;
     width: 350px;
-    opacity: 50%;
 }
 
 .subject :nth-child(3){
     margin-top: -10px;
     width: 350px;
-    opacity: 50%;
+   
 }
 
 .message :nth-child(3){
     margin-top: -10px;
     width: 420px;
     height: 120px;
-    opacity: 50%;
     
 }
 
@@ -100,10 +101,29 @@ body {
     border-radius: 5px;
     width: 95px;
     height: 40px;
-    color: white;
+    color: rgb(224, 220, 220);
 }
 
 h2{
     font-weight: bold;
+}
 
+#fb{
+    grid: display;
+    border-radius: 5px;
+    justify-items: center;
+    background-color: rgba(0, 132, 255, 0.795);
+    width: 189px;
+    color: white;
+    
+    
+}
+
+#fb ul > li{
+    list-style-type: none;
+
+}
+
+#blk{
+    color: black;
 }
